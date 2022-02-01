@@ -13,6 +13,9 @@
 		53D7F8B027A962C100BEF471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D7F8AE27A962C100BEF471 /* Main.storyboard */; };
 		53D7F8B227A962C200BEF471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53D7F8B127A962C200BEF471 /* Assets.xcassets */; };
 		53D7F8B527A962C200BEF471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53D7F8B327A962C200BEF471 /* LaunchScreen.storyboard */; };
+		53D7F8BD27A9A33B00BEF471 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7F8BC27A9A33B00BEF471 /* APIHandler.swift */; };
+		53D7F8C127A9A68F00BEF471 /* Prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7F8C027A9A68F00BEF471 /* Prices.swift */; };
+		53D7F8C327A9A7CA00BEF471 /* PriceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D7F8C227A9A7CA00BEF471 /* PriceDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		53D7F8B127A962C200BEF471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53D7F8B427A962C200BEF471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53D7F8B627A962C200BEF471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53D7F8BC27A9A33B00BEF471 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		53D7F8C027A9A68F00BEF471 /* Prices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prices.swift; sourceTree = "<group>"; };
+		53D7F8C227A9A7CA00BEF471 /* PriceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,32 @@
 			children = (
 				53D7F8A827A962C100BEF471 /* AppDelegate.swift */,
 				53D7F8AA27A962C100BEF471 /* SceneDelegate.swift */,
-				53D7F8AC27A962C100BEF471 /* ViewController.swift */,
+				53D7F8C227A9A7CA00BEF471 /* PriceDelegate.swift */,
+				53D7F8BE27A9A36F00BEF471 /* Model */,
+				53D7F8BF27A9A37E00BEF471 /* Controller */,
 				53D7F8AE27A962C100BEF471 /* Main.storyboard */,
 				53D7F8B127A962C200BEF471 /* Assets.xcassets */,
 				53D7F8B327A962C200BEF471 /* LaunchScreen.storyboard */,
 				53D7F8B627A962C200BEF471 /* Info.plist */,
 			);
 			path = "Bitcoin Price Tracker";
+			sourceTree = "<group>";
+		};
+		53D7F8BE27A9A36F00BEF471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53D7F8BC27A9A33B00BEF471 /* APIHandler.swift */,
+				53D7F8C027A9A68F00BEF471 /* Prices.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53D7F8BF27A9A37E00BEF471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53D7F8AC27A962C100BEF471 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			files = (
 				53D7F8AD27A962C100BEF471 /* ViewController.swift in Sources */,
 				53D7F8A927A962C100BEF471 /* AppDelegate.swift in Sources */,
+				53D7F8C327A9A7CA00BEF471 /* PriceDelegate.swift in Sources */,
+				53D7F8C127A9A68F00BEF471 /* Prices.swift in Sources */,
 				53D7F8AB27A962C100BEF471 /* SceneDelegate.swift in Sources */,
+				53D7F8BD27A9A33B00BEF471 /* APIHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
