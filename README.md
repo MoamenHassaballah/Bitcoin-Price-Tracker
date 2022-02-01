@@ -9,4 +9,4 @@ Get Your API Key
 # App Example
 
 
-![ezgif-7-bc687129fd](https://user-images.githubusercontent.com/43247788/152026652-7454ae84-5037-4c3b-a143-cb7b9b8b8f4d.gif)
+![BTC price](https://user-images.githubusercontent.com/43247788/152027545-166e3de9-1fb1-4953-bbc5-c78853b2c30a.gif)
